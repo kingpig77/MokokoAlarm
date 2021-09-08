@@ -1,0 +1,70 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\WinForm_Project\\WPFProject\\MokokoAlarm\\MokokoAlarm.csproj": {}
+  },
+  "projects": {
+    "D:\\WinForm_Project\\WPFProject\\MokokoAlarm\\MokokoAlarm.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\WinForm_Project\\WPFProject\\MokokoAlarm\\MokokoAlarm.csproj",
+        "projectName": "MokokoAlarm",
+        "projectPath": "D:\\WinForm_Project\\WPFProject\\MokokoAlarm\\MokokoAlarm.csproj",
+        "packagesPath": "C:\\Users\\송민기\\.nuget\\packages\\",
+        "outputPath": "D:\\WinForm_Project\\WPFProject\\MokokoAlarm\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\송민기\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0-windows7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Users\\송민기\\Desktop\\websocket-sharp-master\\websocket-sharp-master\\websocket-sharp": {},
+          "https://nuget.org/api/v2/": {}
+        },
+        "frameworks": {
+          "net5.0-windows7.0": {
+            "targetAlias": "net5.0-windows",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0-windows7.0": {
+          "targetAlias": "net5.0-windows",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

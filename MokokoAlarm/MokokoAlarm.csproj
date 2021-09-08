@@ -1,0 +1,38 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="004-cogwheel.png" />
+    <None Remove="029-toggle.png" />
+    <None Remove="Resources\004-cogwheel.png" />
+    <None Remove="Resources\029-toggle.png" />
+    <None Remove="Resources\030-toggle.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Resources\004-cogwheel.png" />
+    <Resource Include="Resources\029-toggle.png" />
+    <Resource Include="Resources\030-toggle.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Properties\Resources.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+
+</Project>
